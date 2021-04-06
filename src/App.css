@@ -1,0 +1,105 @@
+* {
+  background-color: burlywood;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.input-group {
+  margin: 20px 130px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+label,
+input {
+  font-size: 18px;
+  flex-basis: 250px;
+}
+
+input {
+  background-color: #ffdead;
+}
+
+.deadline-input {
+  padding-left: 30px;
+}
+.add-button {
+  background-color: #d2691e;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 110px;
+}
+.todo-items {
+  background: none;
+}
+
+.button-delete,
+.button-edit {
+  background-color: #d2691e;
+}
+
+.display-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  width: 50%;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(207, 150, 110) 0%,
+    rgb(165, 88, 58) 100%
+  );
+}
+
+.display-todo:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgb(115, 103, 141) 0%,
+    rgb(67, 42, 83) 100%
+  );
+}
+
+.display-todo:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    rgb(142, 209, 167) 0%,
+    rgb(62, 172, 95) 100%
+  );
+}
+
+.display-todo:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    rgb(202, 109, 198) 0%,
+    rgb(204, 10, 188) 100%
+  );
+}
+
+.display-todo:nth-child(4n + 4) {
+  background: linear-gradient(
+    90deg,
+    rgb(150, 145, 73) 0%,
+    rgb(201, 214, 11) 100%
+  );
+}
+
+.border-component {
+  border: 3px dotted #d2691e;
+  width: 52%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  border-radius: 6px;
+}
+
+.buttons {
+  background: none;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
